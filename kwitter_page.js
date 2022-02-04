@@ -1,15 +1,20 @@
-//YOUR FIREBASE LINKS
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
 const firebaseConfig = {
-      apiKey: "AIzaSyBTvTJ7f-sBIYfEsb6KeEWsaORJnS0IzPY",
-      authDomain: "kwitter-a2045.firebaseapp.com",
-      databaseURL: "https://kwitter-a2045-default-rtdb.firebaseio.com",
-      projectId: "kwitter-a2045",
-      storageBucket: "kwitter-a2045.appspot.com",
-      messagingSenderId: "411664457094",
-      appId: "1:411664457094:web:6c1394eed3cd4abc1fe007"
-    };
-    
-    // Initialize Firebase
+  apiKey: "AIzaSyDGEwN9nwlme6gnuNcQure-h0H5b45IcwA",
+  authDomain: "kwitter-7c27a.firebaseapp.com",
+  databaseURL: "https://kwitter-7c27a-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "kwitter-7c27a",
+  storageBucket: "kwitter-7c27a.appspot.com",
+  messagingSenderId: "344272841830",
+  appId: "1:344272841830:web:53df82ec5fa7b8b7ca11a7"
+};
+
+// Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     username = localStorage.getItem("username");
     room_name = localStorage.getItem("room_name");
