@@ -1,18 +1,20 @@
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDGEwN9nwlme6gnuNcQure-h0H5b45IcwA",
-  authDomain: "kwitter-7c27a.firebaseapp.com",
-  databaseURL: "https://kwitter-7c27a-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "kwitter-7c27a",
-  storageBucket: "kwitter-7c27a.appspot.com",
-  messagingSenderId: "344272841830",
-  appId: "1:344272841830:web:53df82ec5fa7b8b7ca11a7"
+  apiKey: "AIzaSyB-LzKa7JOpwnwluslmrGVTJcpuB3PHuoc",
+  authDomain: "kitter-4ca84.firebaseapp.com",
+  projectId: "kitter-4ca84",
+  storageBucket: "kitter-4ca84.appspot.com",
+  messagingSenderId: "474444246093",
+  appId: "1:474444246093:web:c45e023e9055fce3e3c004",
+  measurementId: "G-5RYD196HCG"
 };
 
 // Initialize Firebase
